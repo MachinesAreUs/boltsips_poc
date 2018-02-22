@@ -12,12 +12,12 @@ defmodule BoltSipsLoad do
     }
   ]
 
-  def load_test(times, n_proc) do
+  def load_test(times, n_proc, rest_period) do
     for n <- 1..times do
       Logger.info "run #{n}..."
       concurrent_queries(n_proc)
       Logger.info "sleeping..."
-      :timer.sleep(500)
+      :timer.sleep(rest_period)
     end
   end
 
