@@ -1,6 +1,8 @@
 %{
-  "bolt_sips": {:hex, :bolt_sips, "0.4.12", "aae226f32d9267b8a0391bfa3ac063c2400849d236c9d2d9de44db119b5131c4", [:mix], [{:boltex, "~> 0.4.0", [hex: :boltex, repo: "hexpm", optional: false]}, {:fuzzyurl, "~> 0.9.1", [hex: :fuzzyurl, repo: "hexpm", optional: false]}, {:poolboy, "~> 1.5.1", [hex: :poolboy, repo: "hexpm", optional: false]}, {:retry, "~> 0.8.1", [hex: :retry, repo: "hexpm", optional: false]}], "hexpm"},
+  "bolt_sips": {:git, "git@github.com:florinpatrascu/bolt_sips.git", "ea5e1ae3295700a9f9b0324d26d953845da17050", []},
   "boltex": {:hex, :boltex, "0.4.0", "813333088c9cfe7fe5867d16583e3df5f49c64bcd89e0c54fd2c9729885108b0", [:hex], [], "hexpm"},
+  "connection": {:hex, :connection, "1.0.4", "a1cae72211f0eef17705aaededacac3eb30e6625b04a6117c1b2db6ace7d5976", [:mix], [], "hexpm"},
+  "db_connection": {:git, "https://github.com/elixir-ecto/db_connection.git", "c790b36ab4d4a56c8f9182874553f48ff4f9d51f", []},
   "fuzzyurl": {:hex, :fuzzyurl, "0.9.1", "81ed7a5f6b42706b65e3948958e6f584d38e3749a5445d5a26d5f80ac1121033", [:mix], [], "hexpm"},
   "poolboy": {:hex, :poolboy, "1.5.1", "6b46163901cfd0a1b43d692657ed9d7e599853b3b21b95ae5ae0a777cf9b6ca8", [:rebar], [], "hexpm"},
   "retry": {:hex, :retry, "0.8.1", "46bd45c98dcba126bee04967d60f84ac13b854dfedaf6c2fb3b7f0cae884e090", [:mix], [], "hexpm"},
